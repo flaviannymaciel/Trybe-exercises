@@ -11,8 +11,12 @@ let infoNew = {
   recorrente: 'Sim'
 }
 
-for (let chaves in info) {
-  console.log(info[chaves] + " e " + infoNew[chaves]);
+for (let chaves in info, infoNew) {
+  if (info[chaves] != infoNew[chaves]) {
+    console.log(info[chaves] + " e " + infoNew[chaves]);
+  } else if (info[chaves] === infoNew[chaves]) {
+    console.log("Ambos recorrentes")
+  }
 }
-
   
+
