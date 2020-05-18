@@ -1,12 +1,17 @@
-let linha = 10;
-let resultado1 = "";;
-let resultado2 = "";
+let n = 5;
+let aux_asterisk = 0;
 
-for (let i = 1; i <=linha; i++) {
-  for(let j=0;j<linha-i; j++){
-    resultado1=resultado1+" ";
+for (let i = 1; i <= n; i++){
+  let output = "";
+  let aux_space = n - i;
+  aux_asterisk += 1;
+  
+  for (let k = 0; k < aux_space; k++){
+    output = output + " ";
   }
-  resultado2= resultado2+"*"
-  console.log(resultado1+resultado2);
-  resultado1="";
+
+  for (let j = 0; j < aux_asterisk; j++){
+    output = output + "*";
+  }
+  console.log(output);
 }
