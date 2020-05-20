@@ -121,9 +121,25 @@
 
          // Exercício 9 - Criando três h3
         for (let i = 0; i < 3; i += 1) {
-        let h3 = document.createElement("h3");
-        firstDiv.appendChild(h3);
+        let subtitles = document.createElement("h3");
+        // Exercício 11 - Criando classe 
+        subtitles.className = "description"
+        document.querySelector(".main-content").appendChild(subtitles);
         }
+        
+        // Exercício 12 - removendo div
+        firstDiv.removeChild(secondChildDiv);
+        // Exercício 13 - centralizando div
+        document.querySelector(".right-content").setAttribute("style", "margin-right : auto");
+        // Exercício 14 - background color green
+        document.querySelector(".center-content").parentNode.style.background = "green" 
+        // Exercício 15 - 
+        for(let i=0;i<2;i+=1){
+        let ultimos= document.querySelector('ul').lastChild;
+        document.querySelector('ul').removeChild(ultimos);
+      }
+      
+
     </script>  
   </body>
 </html>
