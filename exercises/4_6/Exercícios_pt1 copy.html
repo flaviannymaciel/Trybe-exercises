@@ -60,6 +60,8 @@
       let title = document.createElement("h1");
       // Adicionando texto na tag
       title.innerHTML =  "Exercício 4.5 - JavaScript DOM"
+      // Exercício 11 - Criando classe
+      title.className = "title"
       // Adicionando elemento no body
       document.body.appendChild(title);
 
@@ -116,6 +118,12 @@
             li.innerHTML = li.innerHTML + array[i];
         }
         thirdChildDiv.appendChild(ul); 
-    </script>
+
+         // Exercício 9 - Criando três h3
+        for (let i = 0; i < 3; i += 1) {
+        let h3 = document.createElement("h3");
+        firstDiv.appendChild(h3);
+        }
+    </script>  
   </body>
 </html>
