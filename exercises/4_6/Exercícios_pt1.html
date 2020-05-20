@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 4.5</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Exercício 1 - Criando H1
+      let title = document.createElement("h1");
+      // Adicionando texto na tag
+      title.innerHTML =  "Exercício 4.5 - JavaScript DOM"
+      // Adicionando elemento no body
+      document.body.appendChild(title);
+
+       // Exercício 2 - Criando a div
+       let firstDiv = document.createElement("div");
+      // Adicionando classe na div
+      firstDiv.className =  "main-content"
+      // Adicionando elemento no body
+      document.body.appendChild(firstDiv);
+
+       // Exercício 3 - Criando a div
+       let childDiv = document.createElement("div");
+      // Adicionando classe na div
+      childDiv.className =  "center-content"
+      // Adicionando elemento na div
+      firstDiv.appendChild(childDiv);
+
+      // Exercício 4 - Criando child p
+      let childp = document.createElement("p");
+      // Adicionando texto ao parágrafo
+      childp.innerHTML =  "Criando um parágrafo"
+      // Adicionando elemento na div
+      childDiv.appendChild(childp);
+
+      // Exercício 5 - Criando div
+       let secondChildDiv = document.createElement("div");
+      // Adicionando classe na div
+      secondChildDiv.className =  "left-content"
+      // Adicionando elemento na div
+      firstDiv.appendChild(secondChildDiv);
+
+       // Exercício 6 - Criando div
+       let thirdChildDiv = document.createElement("div");
+      // Adicionando classe na div
+      thirdChildDiv.className =  "right-content"
+      // Adicionando elemento na div
+      firstDiv.appendChild(thirdChildDiv);
+
+      // Exercício 7 - Criando imagem
+      let childImg = document.createElement("img");
+      // Adicionando classe na imagem
+      childImg.className =  "small-image"
+      //Adicionando valor a imagem
+      childImg.src =  "https://picsum.photos/200"
+      // Adicionando elemento na div do exercício 5
+      secondChildDiv.appendChild(childImg);
+
+       // Exercício 8 - Criando lista
+       let ul = document.createElement("ul");
+        array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+        for (var i = 0; i < array.length; i++) {
+            let li = document.createElement("li");
+            ul.appendChild(li);
+            li.innerHTML = li.innerHTML + array[i];
+        }
+        thirdChildDiv.appendChild(ul); 
+
+         // Exercício 9 - Criando três h3
+        for (let i = 0; i < 3; i += 1) {
+        let h3 = document.createElement("h3");
+        firstDiv.appendChild(h3);
+        }
+    </script>  
+  </body>
+</html>
