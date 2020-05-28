@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Currículo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de Currículo</h1>
+    </header>
+    <form action="">
+      <!-- Exercício 1 -->
+      <fieldset>
+        <!-- Nome -->
+        <div>
+          <label for="">Nome</label>
+          <input
+            type="text"
+            required="required"
+            name="nome"
+            maxlength="40"
+          />
+        </div>
+<!-- E-mail -->
+        <div>
+          <label for="">E-mail</label>
+          <input
+            type="email"
+            required="required"
+            placeholder="texto@texto.texto"
+            name="email"
+            maxlength="50"
+          />
+        </div>
+<!-- CPF -->
+        <div>
+          <label for="">CPF</label>
+          <input type="text" required="required" name="cpf" maxlength="11" />
+        </div>
+<!-- Endereço -->
+        <div>
+          <label for="">Endereço</label>
+          <input
+            type="text"
+            required="required"
+            name="endereco"
+            maxlength="200"
+          />
+        </div>
+<!-- Cidade -->
+        <div>
+          <label for="">Cidade</label>
+          <input type="text" required="required" name="cidade" maxlength="28" />
+        </div>
+<!-- Estado -->
+        <div>
+          <label for="estado">Estado</label>
+          <select required="required" id="estado" name="estado">
+            <option value="" selected>Selecione um Estado</option>
+          </select>
+        </div>
+        <!-- Tipo -->
+        <div>
+          <label for="">Selecione o tipo de moradia:</label>
+          <input type="radio" name="moradia" id="moradia1" value="casa" />
+          <label for="moradia1">Masculino</label>
+          <input type="radio" name="moradia" id="moradia2" value="apart" />
+          <label for="moradia2">Apartamento</label>
+        </fieldset>
+        <!-- Exercício 2 -->
+        <!-- Resumo CV -->
+        <fieldset>
+          <div>
+            <label for="">Resumo do Currículo</label><br />
+            <textarea
+              placeholder="Resumo do currículo"
+              name="resumo"
+              required="required"
+              cols="40"
+              rows="10"
+              maxlength="1000"
+            >
+            </textarea>
+          </div>
+          <!-- Cargo -->
+        <div>
+          <label for="">Cargo</label>
+          <input type="text" required="required" name="cargo" maxlength="40" />
+        </div>
+          <!-- Descrição do Cargo -->
+          <div>
+            <label for="">Descrição do Cargo</label>
+            <input type="text" required="required" name="descrição" maxlength="500" />
+          </div>
+           <!-- Data de Início -->
+           <div>
+            <label for="data">Data de Início</label>
+            <input type="text" required="required" name="data" placeholder="dd/mm/aaaa" id="data" />
+          </div>
+        </fieldset>
+<!-- Exercício 3 -->
+<button type="submit" id="submit">Enviar</button>
+</form>
+<!-- Exercício 4 -->
+<div>
+  <button id="limpar">Limpar</button>
+</div>
+<script src="script.js"></script>
+    </form>
+  </body>
+</html>
