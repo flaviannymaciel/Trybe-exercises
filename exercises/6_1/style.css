@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+}
+
+header {
+  background-color: whitesmoke;
+  margin: 20px auto;
+  padding: 50px 10px;
+  text-align: center;
+  width: 70%;
+}
+
+.form {
+  background-color: whitesmoke;
+  margin: 20px auto;
+  padding: 50px 10px;
+  width: 70%;
+}
+
+.input-field {
+  margin: 5px auto;
+  padding: 2px;
+}
+
+.label {
+  margin: 30px 10px;
+}
+
+.textarea {
+  background-color: white;
+  height: 300px;
+  margin: 10px auto 5px 10px;
+  padding: 5px;
+  width: 400px;
+}
