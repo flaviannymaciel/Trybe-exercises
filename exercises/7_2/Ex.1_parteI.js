@@ -7,4 +7,4 @@ var testObj = {
 //Acessar Montana
 var playerNumber = 16;
 var player = testObj[playerNumber];
-console.log(player)
+console.log(player);
