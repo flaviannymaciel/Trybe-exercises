@@ -19,6 +19,4 @@ assert.strictEqual(sum(4, 5), 9, 'Resultado esperado: 9');
 
 assert.strictEqual(sum(0, 0), 0, 'Resultado esperado: 0');
 
-assert.throws(() => { sum(4, '5') }, 'A função não lança mensagem de erro');
-
 assert.throws(() => {sum(4, '5')},/^Error: parameters must be numbers$/);
