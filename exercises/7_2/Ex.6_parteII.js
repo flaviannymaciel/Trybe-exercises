@@ -20,8 +20,18 @@ const lesson3 = {
   turno: "noite",
 };
 
-const studentsNumber =
+/*const studentsNumber =
   lesson1["numeroEstudantes"] +
   lesson2["numeroEstudantes"] +
   lesson3["numeroEstudantes"];
-console.log(studentsNumber);
+console.log(studentsNumber);*/
+
+function numberOfStudents (object) {
+  const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
+  let students = allLessons[object].numeroEstudantes;
+  console.log(students);
+}
+
+numberOfStudents('lesson1');
+numberOfStudents('lesson2');
+numberOfStudents('lesson3');
