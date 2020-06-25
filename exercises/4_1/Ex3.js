@@ -1,6 +1,7 @@
-let a = 5;
-let b = 2;
-let c = 12;
+ /*Faça um programa que retorne o maior de três números.
+Defina no começo do programa três variáveis com os valores que serão comparados. */
+
+const a = 5; b = 2; c = 12;
 
 if (a > b && a > c) {
   console.log(a);
