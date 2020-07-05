@@ -1,3 +1,5 @@
+// Agora inverta o lado do triângulo, em relação ao exercício 2.
+
 let n = 5;
 let aux_asterisk = 0;
 
