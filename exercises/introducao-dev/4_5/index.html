@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-    <h1 class="title">Exercício 4.4 - JavaEscripito </h1>
+    <h1 class="title">Exercício 4.5 - JavaEscripito</h1>
     <div class="main-content">
       <div class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -39,7 +39,7 @@
       </div>
     </div>
     <script>
-        /*
+      /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
         - document.getElementsByClassName()
@@ -51,9 +51,37 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+      function changeText(text) {
+        document.getElementsByTagName('p')[1].innerHTML = text;
+      }
+      changeText('Estarei atuando como uma desenvolvedora Full Stack');
 
-        const descricao = document.getElementsByTagName('p')
-        descricao.innertext = 'Estarei atuando no mercado como uma desenvolvedora Full Stack'
+      function changeColor(classe, cor) {
+        document.getElementsByClassName(classe)[0].style.backgroundColor = cor;
+      }
+      changeColor('main-content', '#48a46b');
+      changeColor('center-content', '#fff');
+
+      function modText(newText) {
+        document.getElementsByTagName('h1')[0].innerHTML = newText;
+      }
+      modText('Exercício 4.5 - JavaScript');
+
+      function upperCase(tag) {
+        let upperCase = document.getElementsByTagName(tag);
+        for (let i = 0; i < upperCase.length; i += 1) {
+          upperCase[i].innerHTML = upperCase[i].innerHTML.toUpperCase();
+        }
+      }
+      upperCase('p');
+
+      function print(tag) {
+        let printText = document.getElementsByTagName(tag);
+        for (let i = 0; i < printText.length; i += 1) {
+          console.log(printText[i].innerHTML);
+        }
+      }
+      print('p');
     </script>
   </body>
 </html>
