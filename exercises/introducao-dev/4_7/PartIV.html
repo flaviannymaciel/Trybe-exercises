@@ -1,27 +1,104 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8" />
-  <title>Cat Walk</title>
- </head>
- <body>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Creepster|Text+Me+One"
+      rel="stylesheet"
+    />
+    <title>A Creepy Story</title>
+    <style>
+      body {
+        margin: 20px;
+        font-family: "Text Me One", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      body.dark {
+        color: white;
+        background: black;
+      }
+
+      h1 {
+        font-family: "Creepster", cursive;
+        font-weight: normal;
+        font-size: 60px;
+        margin: 5px;
+      }
+
+      button {
+        display: block;
+        padding: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .textEntry {
+        margin-top: 12px;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>The Basement</h1>
+    <p id="story">
+      I knew I shouldn't go there, in that dank, cold little place. But I wanted
+      to find my friend, and he was hiding in the basement.
+    </p>
+
+    <button id="mood">Get In The Mood</button>
+    <div class="textEntry">
+      Type your name here, if you dare:
+      <input type="text" id="name" autocomplete="off" />
+    </div>
+    <button id="dont-click">Please, Please Don't Click Me</button>
+    <button id="end">Tell Me What Happened!</button>
+    <audio
+      id="audio"
+      src="http://reboot-me.com/ouch.mp3"
+      type="audio/mpeg"
+    ></audio>
+  </body>
+
+  <script>
+    var personName = "";
+
+    function complainMessage() {
+      alert("I told you not to do that " + personName);
+    }
+
+    function typeAndScream() {
+      document.getElementById("audio").play();
+      personName = document.getElementById("name").value;
+    }
+
+    function goDark() {
+      var body = document.getElementsByTagName("body")[0];
+      if (body.className == "") {
+        body.className = "dark";
+      } else {
+        body.className = "";
+      }
+    }
+
+    function finishTheStory() {
+      document.getElementById("story").innerHTML =
+        "So I carefully searched the damp dungeon. There you are! I grinned a smile with all 98 of my gleaming teeth. Dinner time!";
+    }
+
+    let dontClick = document.getElementById("dont-click")
+    dontClick.addEventListener("click", complainMessage)
+
+    let end = document.getElementById("end")
+    end.addEventListener("click", finishTheStory)
+
+    let mood = document.getElementById("mood")
+    mood.addEventListener("click", goDark)
   
-  <img style="position:absolute;" src="http://www.anniemation.com/clip_art/images/cat-walk.gif">
-  
- </body>
+    let dare = document.getElementById("name")
+    dare.addEventListener("input", typeAndScream)
+  </script>
+
 </html>
-<!-- Add a script tag at the bottom of the page, where you'll put all your code.
-Create a variable to store a reference to the img.
-Change the style of the img to have a "left" of "0px", so that it starts at the left hand of the screens.
-Create a function called catWalk() that moves the cat 10 pixels to the right of where it started, by changing the "left" style property.
-Call that function every 50 milliseconds. Your cat should now be moving across the screen from left to right. Hurrah!
-
-
-Bonus #1: When the cat reaches the right-hand of the screen, restart them at the left hand side ("0px"). So they should keep walking from left to right across the screen, forever and ever.
-
-
-Bonus #2: When the cat reaches the right-hand of the screen, make them move backwards instead. They should keep walking back and forth forever and ever.
-
-
-Bonus #3: When the cat reaches the middle of the screen, replace the img with an image of a cat dancing, keep it dancing for 10 seconds, and then replace the img with the original image and have it continue the walk. -->
-
