@@ -31,7 +31,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 4-7: *JavaScript - Events*
 - [x] 4-8: *JavaScript - Web Storage*
 ##### Block 5: Introduction - JavaScript - Projects
-- [x] 5-1: *[Project - Meme Generator]*
+- [x] 5-1: *[Project - Meme Generator](https://flaviannymaciel.github.io/meme-generator/index.html)*
 - [x] 5-2: *[Project - Art with Pixels]*
 - [x] 5-3: *[Project - To Do List]*
 - [ ] 5-4: *Project - Guess the Color*
