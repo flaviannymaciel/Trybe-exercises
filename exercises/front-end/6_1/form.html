@@ -10,7 +10,7 @@
     <header>
       <h1>Cadastro de Currículos</h1>
     </header>
-    <form action="" method="GET" class="form">
+    <form action="" method="GET" class="form" id='form'>
       <!-- Exercício 1 -->
       <fieldset>
         <!-- Nome -->
@@ -33,6 +33,7 @@
             placeholder="texto@texto.texto"
             name="email"
             maxlength="50"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             class="input-field"
           />
         </div>
@@ -101,15 +102,16 @@
            <!-- Data de Início -->
            <div>
             <label class="label" for="data">Data de Início</label>
-            <input type="text" required="required" name="data" placeholder="dd/mm/aaaa" id="data-inicio" class="input-field"/>
+            <input type="date" required="required" name="data" placeholder="dd/mm/aaaa" id="data-inicio" class="input-field"/>
           </div>
         </fieldset>
+      </form>
+      <section>
 <!-- Exercício 3 -->
 <button type="submit" id="submit">Enviar</button>
 <!-- Exercício 4 -->
   <button id="limpar">Limpar</button>
-
-</form>
+</section>
 <script src="script.js"></script>
    
   </body>
