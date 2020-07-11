@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: lightseagreen;
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+}
+
+.pokemon {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  width: 350px;
+}
+
+.pokemon-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 800px) {
+  .pokemon-list {
+    height: 750px;
+  }
+}
+
+@media screen and (min-width: 1070px) {
+  .pokemon-list {
+    height: 440px;
+  }
+}
+
