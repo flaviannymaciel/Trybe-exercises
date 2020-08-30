@@ -25,15 +25,30 @@ const handleStyle = {
   },
 };
 
-function handleChange (event) {
+function handleChange(event) {
   const name = event.target.name;
   const value = event.target.value;
   console.log(handleStyle);
-  
+
   handleStyle[name](value);
-  showCss()
-};
+  saveValues(name, value);
+  showCss();
+}
+
+function saveValues(name, value) {
+  localStorage[name] = value;
+}
+
+function setValues (){
+  const propriedades = Object.keys(localStorage)
+  propriedades.forEach(propriedade => {
+    handleStyle[propriedade](localStorage[propriedade])
+  formulario.elements[propriedade].value = localStorage[propriedade]
+})
+showCss();
+}
+setValues()
 
 function showCss() {
-  text.innerHTML = button.style.cssText
+  text.innerHTML = button.style.cssText;
 }
