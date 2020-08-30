@@ -21,7 +21,7 @@ input {
   gap: 30px;
 }
 
-.control {
+#control {
   font-family: monospace;
   font-size: 0.9rem;
   padding: 1rem;
