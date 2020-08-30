@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+    <form class="control">
+      <label>Escolha a cor de fundo da tela:</label>
+      <input type="color" name="bg" id="bg" />
+      <label>Escolha a cor do texto:</label>
+      <input type="color" name="color" id="color" />
+      <label>Escolha o tamanho da fonte:</label>
+      <input type="range" name="fontSize" id="fontSize" min="0" max="50"/>
+      <label>Escolha o espaçamento:</label>
+      <input type="number" name="space" id="space" />
+      <label>Escolha o tipo de fonte:</label>
+      <select type="text" id="fontFamily" name="fontFamily">
+        <option value="">Selecione</option>
+        <option value="Arial, Helvetica, sans-serif;">Arial</option>
+        <option value="monospace;">Monospace</option>
+        <option value="'Times New Roman', Times, serif;">Times New Roman</option>
+        <option value="Verdana, Geneva, Tahoma, sans-serif;">Verdana</option>
+      </select>
+    </form>
+    <section class="resultado">
+      <button class="btn">Clique</button>
+      <pre><code class="css"><span>Teste</span></code></pre>
+    </section>
+  </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
