@@ -10,6 +10,19 @@ class App extends React.Component {
     this.fetchDog = this.fetchDog.bind(this);
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    if (nextState.data.message.includes('terrier')) {
+      return false;
+    }
+    return true;
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem('URL', this.state.data.message);
+    const raca = this.state.data.message.split('/')[4];
+    alert(raca);
+  }
+
   componentDidMount() {
     this.fetchDog();
   }
@@ -21,10 +34,9 @@ class App extends React.Component {
   }
 
   render() {
-    const { data } = this.state
-    if (data === "") return "Loading..."
+    const { data } = this.state;
+    if (data === '') return 'Loading...';
     return (
-
       <div className="App-header">
         <h1>Doguinhos</h1>
         <div>
