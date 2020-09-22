@@ -40,7 +40,7 @@ class App extends React.Component {
       <div className="App-header">
         <h1>Doguinhos</h1>
         <div>
-          <img src={data.message} alt={this.message} />
+          <img src={data.message} alt="dog" />
         </div>
         <div>
           <button onClick={this.fetchDog}>Próximo Doguinho</button>
