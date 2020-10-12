@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Component from './Component'
 
 const compromisso = ['Yoga', 'Clube Turismo', 'Trybe']
 const task = (value) => {
@@ -12,10 +12,9 @@ const task = (value) => {
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {compromisso.map((e) => task(e))}
-      </header>
+      <h1>Lista de Tarefas:</h1>
+      {compromisso.map((e) => task(e)) }
+      <footer><Component /></footer>
     </div>
   );
 }
