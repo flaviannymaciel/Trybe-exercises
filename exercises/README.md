@@ -54,63 +54,63 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
 - [x] 8-2: *JavaScript ES6 - Higher Order Functions - map and reduce*
 - [x] 8-3: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
-- [ ] 8-4: *Project - Zoo functions*
+- [x] 8-4: *Project - Zoo functions*
 ##### Block 9: Asynchronicity & Callbacks
-- [ ] 9-1: *First steps at Jest*
-- [ ] 9-2: *Asynchronous JavaScript and Callbacks*
-- [ ] 9-3: *JavaScript Promises*
-- [ ] 9-4: *Project - Shopping Cart*
+- [x] 9-1: *First steps at Jest*
+- [x] 9-2: *Asynchronous JavaScript and Callbacks*
+- [x] 9-3: *JavaScript Promises*
+- [x] 9-4: *Project - Shopping Cart*
 ##### Block 10: Jest
-- [ ] 10-1: *Jest - Asynchronous Tests*
-- [ ] 10-2: *Jest - Simulating behaviors*
-- [ ] 10-3: *Project - Asynchronous Jest and Mocking*
+- [x] 10-1: *Jest - Asynchronous Tests*
+- [x] 10-2: *Jest - Simulating behaviors*
+- [x] 10-3: *Project - Asynchronous Jest and Mocking*
 ##### Block 11: Introduction - React
-- [ ] 11-1: *'Hello, world!' in React!*
-- [ ] 11-2: *React Components*
-- [ ] 11-3: *Project - Movie Cards Library*
+- [x] 11-1: *'Hello, world!' in React!*
+- [x] 11-2: *React Components*
+- [x] 11-3: *Project - Movie Cards Library*
 ##### Block 12: React
-- [ ] 12-1: *Components with status*
-- [ ] 12-2: *React events and forms*
-- [ ] 12-3: *Project - Movie Cards Library Stateful*
+- [x] 12-1: *Components with status*
+- [x] 12-2: *React events and forms*
+- [x] 12-3: *Project - Movie Cards Library Stateful*
 ##### Block 13: React
-- [ ] 13-1: *Improving component reuse: props.children and PropTypes*
-- [ ] 13-2: *React component life cycle*
-- [ ] 13-3: *React Router*
-- [ ] 13-4: *Project - Movie Cards Library CRUD*
+- [x] 13-1: *Improving component reuse: props.children and PropTypes*
+- [x] 13-2: *React component life cycle*
+- [x] 13-3: *React Router*
+- [x] 13-4: *Project - Movie Cards Library CRUD*
 ##### Block 14: Agile Methodologies
-- [ ] 14-1: *Agile Methodologies*
-- [ ] 14-2: *Project - Frontend Online Store*
+- [x] 14-1: *Agile Methodologies*
+- [x] 14-2: *Project - Frontend Online Store*
 ##### Block 15: React
-- [ ] 15-1: *Testing React with the React Testing Library*
-- [ ] 15-2: *Testing React with the React Testing Library - Part 2*
-- [ ] 15-3: *Project - React Tests*
+- [x] 15-1: *Testing React with the React Testing Library*
+- [x] 15-2: *Testing React with the React Testing Library - Part 2*
+- [x] 15-3: *Project - React Tests*
 ##### Block 16: React
-- [ ] 16-1: *Introduction to Redux*
-- [ ] 16-2: *React with Redux - part 1*
-- [ ] 16-3: *React with Redux - part 2*
-- [ ] 16-4: *Project - Table with data filters*
+- [x] 16-1: *Introduction to Redux*
+- [x] 16-2: *React with Redux - part 1*
+- [x] 16-3: *React with Redux - part 2*
+- [x] 16-4: *Project - Table with data filters*
 ##### Block 17: React
-- [ ] 17-1: *Project - Trivia Game*
+- [x] 17-1: *Project - Trivia Game*
 ##### Block 18: React & Redux
-- [ ] 18-1: *React Context API*
-- [ ] 18-2: *React Hooks - useState and useContext*
-- [ ] 18-3: *React Hooks - useEffect and custom Hooks*
-- [ ] 18-4: *Project - Datatable StarWars with Context API and Hooks*
+- [x] 18-1: *React Context API*
+- [x] 18-2: *React Hooks - useState and useContext*
+- [x] 18-3: *React Hooks - useEffect and custom Hooks*
+- [x] 18-4: *Project - Datatable StarWars with Context API and Hooks*
 ##### Block 19: Final Front-end Project
-- [ ] 19-1: *Project - Recipe App*
+- [x] 19-1: *Project - Recipe App*
 
 ## Back-end development :hourglass_flowing_sand:
 ##### Block 20: Introduction - Relational Databases
-- [ ] 20-1: *SQL database*
-- [ ] 20-2: *Finding data in a database*
-- [ ] 20-3: *Filtering data specifically*
-- [ ] 20-4: *Manipulating tables*
-- [ ] 20-5: *Project - All For One*
+- [x] 20-1: *SQL database*
+- [x] 20-2: *Finding data in a database*
+- [x] 20-3: *Filtering data specifically*
+- [x] 20-4: *Manipulating tables*
+- [x] 20-5: *Project - All For One*
 ##### Block 21: Relational Databases
-- [ ] 21-1: *Most used functions in SQL*
-- [ ] 21-2: *Uncomplicating JOINs and UNIONs*
-- [ ] 21-3: *Stored Routines & Subqueries*
-- [ ] 21-4: *Project - Vocabulary Booster*
+- [x] 21-1: *Most used functions in SQL*
+- [x] 21-2: *Uncomplicating JOINs and UNIONs*
+- [x] 21-3: *Stored Routines & Subqueries*
+- [x] 21-4: *Project - Vocabulary Booster*
 ##### Block 22: Relational Databases
 - [ ] 22-1: *Transforming ideas into a database model*
 - [ ] 22-2: *Transforming ideas into a database model - Part 2*
