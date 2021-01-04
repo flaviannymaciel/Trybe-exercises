@@ -85,32 +85,32 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 15-2: *Testing React with the React Testing Library - Part 2*
 - [x] 15-3: *Project - React Tests*
 ##### Block 16: React
-- [ ] 16-1: *Introduction to Redux*
-- [ ] 16-2: *React with Redux - part 1*
-- [ ] 16-3: *React with Redux - part 2*
-- [ ] 16-4: *Project - Table with data filters*
+- [x] 16-1: *Introduction to Redux*
+- [x] 16-2: *React with Redux - part 1*
+- [x] 16-3: *React with Redux - part 2*
+- [x] 16-4: *Project - Table with data filters*
 ##### Block 17: React
-- [ ] 17-1: *Project - Trivia Game*
+- [x] 17-1: *Project - Trivia Game*
 ##### Block 18: React & Redux
-- [ ] 18-1: *React Context API*
-- [ ] 18-2: *React Hooks - useState and useContext*
-- [ ] 18-3: *React Hooks - useEffect and custom Hooks*
-- [ ] 18-4: *Project - Datatable StarWars with Context API and Hooks*
+- [x] 18-1: *React Context API*
+- [x] 18-2: *React Hooks - useState and useContext*
+- [x] 18-3: *React Hooks - useEffect and custom Hooks*
+- [x] 18-4: *Project - Datatable StarWars with Context API and Hooks*
 ##### Block 19: Final Front-end Project
-- [ ] 19-1: *Project - Recipe App*
+- [x] 19-1: *Project - Recipe App*
 
 ## Back-end development :hourglass_flowing_sand:
 ##### Block 20: Introduction - Relational Databases
-- [ ] 20-1: *SQL database*
-- [ ] 20-2: *Finding data in a database*
-- [ ] 20-3: *Filtering data specifically*
-- [ ] 20-4: *Manipulating tables*
-- [ ] 20-5: *Project - All For One*
+- [x] 20-1: *SQL database*
+- [x] 20-2: *Finding data in a database*
+- [x] 20-3: *Filtering data specifically*
+- [x] 20-4: *Manipulating tables*
+- [x] 20-5: *Project - All For One*
 ##### Block 21: Relational Databases
-- [ ] 21-1: *Most used functions in SQL*
-- [ ] 21-2: *Uncomplicating JOINs and UNIONs*
-- [ ] 21-3: *Stored Routines & Subqueries*
-- [ ] 21-4: *Project - Vocabulary Booster*
+- [x] 21-1: *Most used functions in SQL*
+- [x] 21-2: *Uncomplicating JOINs and UNIONs*
+- [x] 21-3: *Stored Routines & Subqueries*
+- [x] 21-4: *Project - Vocabulary Booster*
 ##### Block 22: Relational Databases
 - [ ] 22-1: *Transforming ideas into a database model*
 - [ ] 22-2: *Transforming ideas into a database model - Part 2*
