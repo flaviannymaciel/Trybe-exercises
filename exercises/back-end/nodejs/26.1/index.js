@@ -1,8 +1,16 @@
-const readlineSync = require('readline-sync');
+const inquirer = require('inquirer');
 
-function IMC () {
-  const userWeight = readlineSync.questionFloat('Qual o seu peso(kg)?').toFixed(2);
-  const userHeight = readlineSync.questionFloat('Qual a sua altura(m)?').toFixed(2);
+function validateFloat (input) {
+  return !isNaN(parseFloat(input)) || 'Por favor, digite um número válido';
+}
+
+async function IMC () {
+  const answers = await inquirer.prompt([
+    { name: 'peso', type: 'input', message: 'Qual o seu peso (kg)?', validate: validateFloat },
+    { name: 'altura', type: 'input', message: 'Qual a sua altura (m)?', validate: validateFloat }
+    ])
+  const userWeight = answers.peso
+  const userHeight = answers.altura
   
   const imc = (userWeight/Math.pow(userHeight, 2)).toFixed(2);
   console.log(`Seu IMC é ${imc}`);
