@@ -112,36 +112,36 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 21-3: *Stored Routines & Subqueries*
 - [x] 21-4: *Project - Vocabulary Booster*
 ##### Block 22: Relational Databases
-- [ ] 22-1: *Transforming ideas into a database model*
-- [ ] 22-2: *Transforming ideas into a database model - Part 2*
-- [ ] 22-3: *Project - Queries Unite*
+- [x] 22-1: *Transforming ideas into a database model*
+- [x] 22-2: *Transforming ideas into a database model - Part 2*
+- [x] 22-3: *Project - Queries Unite*
 ##### Block 23: Relational Databases
-- [ ] 23-1: *Normalization and Normal Forms*
-- [ ] 23-2: *Dumps & Project - One For All*
+- [x] 23-1: *Normalization and Normal Forms*
+- [x] 23-2: *Dumps & Project - One For All*
 ##### Block 24: Introduction - NoSQL
-- [ ] 24-1: *MongoDB - Introduction*
-- [ ] 24-2: *Filter Operators*
-- [ ] 24-3: *Project - Data Flights*
+- [x] 24-1: *MongoDB - Introduction*
+- [x] 24-2: *Filter Operators*
+- [x] 24-3: *Project - Data Flights*
 ##### Block 25: Updates
-- [ ] 25-1: *Simple Updates*
-- [ ] 25-2: *Complex Updates - Arrays - Part 1*
-- [ ] 25-3: *Complex Updates - Arrays - Part 2*
-- [ ] 25-4: *Project - Commerce*
+- [x] 25-1: *Simple Updates*
+- [x] 25-2: *Complex Updates - Arrays - Part 1*
+- [x] 25-3: *Complex Updates - Arrays - Part 2*
+- [x] 25-4: *Project - Commerce*
 ##### Block 26: Aggregation Framework
-- [ ] 26-1: *Aggregation Framework - Part 1*
-- [ ] 26-2: *Aggregation Framework - Part 2*
-- [ ] 26-3: *Aggregation Framework - Part 3*
-- [ ] 26-4: *Project - Aggregations*
+- [x] 26-1: *Aggregation Framework - Part 1*
+- [x] 26-2: *Aggregation Framework - Part 2*
+- [x] 26-3: *Aggregation Framework - Part 3*
+- [x] 26-4: *Project - Aggregations*
 ##### Block 27: Intro - NodeJS
-- [ ] 27-1: *NodeJS - Introduction*
-- [ ] 27-2: *NodeJS - Architecture*
-- [ ] 27-3: *NodeJS - Asynchronous Flow*
-- [ ] 27-4: *Project - A CLI of Ice and Fire*
+- [x] 27-1: *NodeJS - Introduction*
+- [x] 27-2: *NodeJS - Architecture*
+- [x] 27-3: *NodeJS - Asynchronous Flow*
+- [x] 27-4: *Project - A CLI of Ice and Fire*
 ##### Block 28: NodeJS
-- [ ] 28-1: *NodeJS - HTTP requests*
-- [ ] 28-2: *Express - Introduction*
-- [ ] 28-3: *Express - Static files and SSR*
-- [ ] 28-4: *Project - Crypto Index*
+- [x] 28-1: *NodeJS - HTTP requests*
+- [x] 28-2: *Express - Introduction*
+- [x] 28-3: *Express - Static files and SSR*
+- [x] 28-4: *Project - Crypto Index*
 ##### Block 29: NodeJS
 - [ ] 29-1: *NodeJS - JWT - (JSON Web Token)*
 - [ ] 29-2: *NodeJS - Input & Output*
